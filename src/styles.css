@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Proxima ;
+    src: url(/assets/fonts/ProximaNovaFont.otf) format('truetype');
+}
+@font-face {
+    font-family: Poppins-light;
+    src: url(/assets/fonts/Poppins/Poppins-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: Poppins-medium;
+    src: url(/assets/fonts/Poppins/Poppins-Medium.ttf) format('truetype');
+}
+
+.Poppins-light{
+    font-family: Poppins-light;
+}
+.Poppins-medium{
+    font-family: Poppins-medium;
+}
+.proxima{
+    font-family: Proxima;
+}
+
+.borderRadius{
+    border-radius: 1%;
+}
+.whiteColor{
+    color:white;
+}
+.yellowgreenColor{
+    color: greenyellow;
+}
+.grayColor{
+    color: #454552;
+    
+}
+.dummyBackground{
+    background-color: yellowgreen;
+}
+.borderBottom{
+    border-bottom:#454552 solid 1px ;
+}
+.iconColor{
+    padding: 1px 2px 1px;
+    background: rgb(173,255,47);
+    /* background: linear-gradient(90deg, rgba(173,255,47,1) -10%, rgba(0,0,0,0) 80%); */
+}
+.letterSpacing {
+    letter-spacing: 1pt;
+}
+.borderRight{
+    border-right:#454552 solid 1px ;
+}
+
+/*scrollbar */
+::-webkit-scrollbar{
+ width: 5px;       
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 3%;
+    background-color: slategray;
+}

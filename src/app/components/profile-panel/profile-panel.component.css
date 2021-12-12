@@ -1,0 +1,166 @@
+.sidePanel{
+    position: relative;
+    margin-top: 3%;
+    background-color: #31313a;
+    width:100%;
+    height: fit-content;
+    
+    /* display: flex;
+    flex-direction: column; */
+}
+.figure{
+    overflow:hidden;
+}
+.imageContainer {
+    width:100%;
+    height: 250px;
+    background-color: black;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
+    cursor:pointer;
+    object-fit: cover;
+
+}
+.zoomIn img {
+    transform: scale(1);
+    transition: 0.3s;
+}
+.zoomIn:hover img{
+    transform: scale(1.1);
+}
+/* blocker */
+.blockerContainter{
+    position: absolute;
+    margin-top: -10%;
+    width: 100%;
+    padding-bottom: 20%;
+    background-color: #31313a;
+    /* background-color: brown; */
+    margin-left: -50%;
+    transform: rotate(10deg);
+}
+.blockContainer2{
+    position:absolute;
+    left: 50%;
+    margin-top: -10%;
+    width: 100%;
+    padding-bottom: 20%;
+    background-color:#31313a;
+    
+
+    transform: rotate(-10deg);
+}
+
+/* circleProfile */
+.imageProfileContainer{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellowgreen;
+    width: 20%;
+    padding-bottom: 20%;
+    margin-top: -13%;
+    border-radius: 50%;
+    border: solid yellowgreen;
+}
+.imageProfileContainer img {
+    position: absolute;
+    width: 100%;
+}
+/* name */
+.nameContainer {
+    position: relative;
+    width: 100%;
+    /* background-color: orange; */
+    height: auto;
+    text-align: center;
+  
+}
+.nameContainer h1{
+    margin-top: 1pt;
+    font-size: pt;
+    font-weight: 500;
+    letter-spacing: 1pt;
+    color: white;
+}
+
+.nameContainer h3{
+    margin-top: -10pt;
+    font-weight: 500;
+    color: yellowgreen;
+    
+}
+.socMed{
+    margin: auto;
+    /* background-color: orange; */
+    width: 30%;
+    height: 30pt;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.socMed i{
+    color: white;
+}
+.socMed i:hover{
+    color: yellowgreen;
+}
+
+
+/* media Query */
+
+
+@media screen and (min-width: 1024px) {
+    .sidePanel{
+        margin: auto;
+        position: relative;
+        margin-top: 3%;
+        background-color: #31313a;
+        width:50%;
+        height: 500px;
+   
+    }
+    .imageProfileContainer{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        padding-bottom: 30%;
+        margin-top: -20%;
+        border-radius: 50%;
+    }
+    .imageProfileContainer img {
+    
+        position: absolute;
+        width: 100%;
+    }
+
+    /* .nameContainer h1{
+        margin-top: 1pt;
+        font-size: 30pt;
+        font-weight: 500;
+        letter-spacing: 1pt;
+        color: white;
+    } */
+}
+@media screen and (max-width: 768px){
+    .imageProfileContainer{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        padding-bottom: 30%;
+        margin-top: -20%;
+        border-radius: 50%;
+    }
+}
+
+
+
+
+
+
+
