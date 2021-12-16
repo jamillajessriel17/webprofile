@@ -51,12 +51,17 @@
 .borderRight{
     border-right:#454552 solid 1px ;
 }
-
+.border{
+   outline: #454552 solid 1px;
+}
 /*scrollbar */
 ::-webkit-scrollbar{
  width: 5px;       
 }
 ::-webkit-scrollbar-thumb{
-    border-radius: 3%;
     background-color: slategray;
+ 
+}
+.boxshadow{
+    box-shadow: palegreen 0px 0px 100000px;
 }
