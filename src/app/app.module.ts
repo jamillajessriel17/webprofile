@@ -7,11 +7,13 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutMeComponentComponent } from './components/about-me-component/about-me-component.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     ProfilePanelComponent,
     AboutMeComponentComponent,
+   
    
 
   ],

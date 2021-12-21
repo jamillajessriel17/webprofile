@@ -34,6 +34,10 @@
     color: #454552;
     
 }
+.grayTextColor{
+    color: #afafaf;
+    
+}
 .dummyBackground{
     background-color: yellowgreen;
 }
@@ -62,6 +66,28 @@
     background-color: slategray;
  
 }
-.boxshadow{
-    box-shadow: palegreen 0px 0px 100000px;
+h3{
+    padding-top: 10px;
+    margin-left: 5%;
+    font-weight: 100;
+
+  
+}
+ul{
+    list-style:none;
+    padding-left: 40pt;
+    margin-top: -10pt;
+}
+ul li::before {
+    content: ">";
+    color: #9acd32;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.textAlignJustify{
+    text-align: justify;
+    text-justify: inter-word;
 }

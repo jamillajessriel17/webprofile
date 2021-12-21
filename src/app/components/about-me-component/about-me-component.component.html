@@ -9,46 +9,80 @@
     </div>
     <!-- text Intro-->
     <div class=" textDiv ">
-            <h3  class="Poppins-medium yellowgreenColor letterSpacing">Hello Im 
-                <span class = "whiteColor">Jess!</span>
-            </h3>
-        <p class="Poppins-light grayTextColor ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis pellentesque 
-            dolor at sagittis. Vivamus porttitor metus id nulla pharetra, sed iaculis velit tristique.
-            Maecenas fermentum interdum condimentum. Praesent vel turpis at eros accumsan efficitur 
-            quis quis lacus. Sed ut tortor ut mauris cursus facilisis sit amet sit amet ante.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis pellentesque 
-            dolor at sagittis. Vivamus porttitor metus id nulla pharetra, sed iaculis velit tristique.
-            Maecenas fermentum interdum condimentum. Praesent vel turpis at eros accumsan efficitur 
-            quis quis lacus. Sed ut tortor ut mauris cursus facilisis sit amet sit amet ante.
+        <br>
+            <p  class="Poppins-light letterSpacing yellowgreenColor">Hello Im 
+                <span class="whiteColor">Jesssss!</span>
+            </p>
+        <p class="Poppins-light whiteColor ">
+            {{aboutMe.intro}}
         </p>
     </div>
     <div class="dataDivContainer Poppins-light bordertop">
         <div class = "dataDiv ">
-            <p>
-                <span>BIRTHDAY:</span>{{aboutMe.birthday}}
+            <p class="whiteColor">
+                <span class=" yellowgreenColor">BIRTHDAY:</span>{{aboutMe.birthday}}
             </p>
-            <p>
-                <span>AGE:</span> {{aboutMe.age}}
+            <p class="whiteColor">
+                <span class=" yellowgreenColor">AGE:</span> {{aboutMe.age}}
             </p>
         </div>
         <div class = "dataDiv bordertop">
-            <p>
-                <Span>ADDRESS:</Span> {{aboutMe.address}}
+            <p class="whiteColor">
+                <Span class=" yellowgreenColor">ADDRESS:</Span> {{aboutMe.address}}
             </p>
-            <p>
-                <Span>NATIONALITY:</Span> {{aboutMe.nationality}}
+            <p class="whiteColor">
+                <Span class=" yellowgreenColor">NATIONALITY:</Span> {{aboutMe.nationality}}
             </p>      
         </div>
     </div>
-    <br>
-  
-    <div class="header border">
+
+<!-- Education -->
+    <div class="header border " style="z-index: 5000;">
         <h3 class="yellowgreenColor Poppins-medium">
             <span class="fas fa-user-graduate iconColor letterSpacing grayColor"></span>
                 Educational
             <span class="whiteColor">Background</span>
         </h3>
+    </div>
+
+    <div class=" Poppins-light whiteColor">
+       <div class="borderBottom divEduc">
+        <p class="yellowgreenColor">
+            TERTIARY
+        </p>
+        <ul>
+            <li>
+                <span class="grayTextColor"> University Of Perpetual Help System Laguna </span><br>
+                Bachelor of Science in Computer Science <br>
+                Batch 2019
+            </li>
+        </ul>
+       </div>
+       <div class="borderBottom divEduc">
+        <p class="yellowgreenColor">
+            SECONDARY
+        </p>
+        <ul>
+            <li>
+                <span class="grayTextColor"> Sacred Heart Academy </span><br>
+                Secondary Education <br>
+                Batch 2015
+            </li>
+        </ul>
+       </div>
+       <div class="borderBottom divEduc">
+        <p class="yellowgreenColor">
+            PRIMARY
+        </p>
+        <ul>
+            <li>
+                <span class="grayTextColor"> Sacred Heart Academy </span><br>
+                Primary Education <br>
+                Batch 2011
+            </li>
+        </ul>
+       </div>
+       
     </div>
     <div style="height: 100vh;">
     

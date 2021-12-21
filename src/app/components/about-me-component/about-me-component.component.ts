@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutMeComponentComponent implements OnInit {
   aboutMe:any = {
+    intro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis pellentesque dolor at sagittis. Vivamus porttitor metus id nulla pharetra, sed iaculis velit tristique.Maecenas fermentum interdum condimentum.",
     birthday: "February 17, 1998",
     age: 24,
     address: "Gloria, Oriental Mindoro",
