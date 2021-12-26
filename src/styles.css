@@ -91,3 +91,9 @@ ul li::before {
     text-align: justify;
     text-justify: inter-word;
 }
+.marginAuto{
+    margin: auto;
+}
+html, body {
+    height: 99%;
+  }

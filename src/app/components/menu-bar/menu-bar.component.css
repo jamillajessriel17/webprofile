@@ -1,0 +1,48 @@
+.container {
+   display: none;
+}
+
+@media screen and (min-width: 1025px) {
+    .container {
+        position: relative;
+        background-color: #31313a;
+        display: flex;
+        flex-direction: column;
+   
+    }
+    .menuItem{
+        user-select: none;
+        position:relative;
+        width: 70px;
+        height: 70px;
+        outline: #454552 solid 1px;
+    
+    }
+    .menuItem p{
+        position: relative;
+        margin-top: -5px;
+       
+    }
+    .menuItem i {
+        position: relative;
+    }
+    .insideContainer{
+        text-align: center;
+        width: fit-content;
+        /* background-color: orange; */
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+    .menuItem :hover{
+        color: yellowgreen;
+        
+    }
+    .menuBarsize{
+        font-size: small;
+    }
+
+
+}

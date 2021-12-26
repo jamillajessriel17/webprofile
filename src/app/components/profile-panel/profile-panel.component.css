@@ -117,7 +117,7 @@
     .sidePanel{
    
         position: relative;
-        margin-top: 3%;
+        margin-top: 0;
         background-color: #31313a;
         width:400px;
         height: 450px;
@@ -127,8 +127,8 @@
         position: relative;
         margin-left: auto;
         margin-right: auto;
-        width: 25%;
-        padding-bottom: 25%;
+        width: 30%;
+        padding-bottom: 30%;
         margin-top: -20%;
         border-radius: 50%;
     }

@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { ProfilePanelComponent } from './components/profile-panel/profile-panel.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutMeComponentComponent } from './components/about-me-component/about-me-component.component';
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 
 
 
@@ -13,6 +14,7 @@ import { AboutMeComponentComponent } from './components/about-me-component/about
     AppComponent,
     ProfilePanelComponent,
     AboutMeComponentComponent,
+    MenuBarComponent,
    
    
 
