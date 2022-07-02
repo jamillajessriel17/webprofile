@@ -14,6 +14,7 @@ export class AboutMeComponentComponent implements OnInit {
     address: "Gloria, Oriental Mindoro",
     nationality: "Filipino"
   }
+  toggle: boolean = !true;
   constructor() { 
  
   }

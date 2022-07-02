@@ -22,6 +22,7 @@
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "gh-pages": "^3.2.3",
+    "ng2-pdf-viewer": "^7.0.2",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

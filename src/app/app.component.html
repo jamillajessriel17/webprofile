@@ -1,13 +1,15 @@
 
     <div class="container margin" >
-        <div class="positionRelative verticalCenter" style="z-index: 100000;">
-            <app-menu-bar></app-menu-bar>
+        <div class="positionRelative verticalCenter menupadding" style="z-index: 100000;">
+            <app-menu-bar (about) = "about($event)" (resume) = resume($event) (contact) = contact($event)></app-menu-bar>
         </div>
         <div class="positionRelative zindex verticalCenter">
             <app-profile-panel></app-profile-panel>
         </div>
         <div class="positionRelative verticalCenter" >
-            <app-about-me-component></app-about-me-component>
+            <app-about-me-component [ngClass]="showabout ? 'display' : 'displayNone'"></app-about-me-component>
+            <app-resume [ngClass]="showresume ? 'display' : 'displayNone'" ></app-resume>
+            <app-contact [ngClass]="showcontact ? 'display' : 'displayNone'"></app-contact>
         </div>
     </div>
-   
+ 

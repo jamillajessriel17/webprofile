@@ -114,8 +114,10 @@
 
 
 @media screen and (min-width: 1024px) {
+    .boxshadow1{
+        box-shadow: -15px 15px  #4b5c4e;
+    }
     .sidePanel{
-   
         position: relative;
         margin-top: 0;
         background-color: #31313a;

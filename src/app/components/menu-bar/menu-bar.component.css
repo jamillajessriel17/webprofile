@@ -1,48 +1,115 @@
-.container {
-   display: none;
+.containerMenubar {
+    position: fixed;
+    background-color: #31313a;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    
+}
+.menuItem{
+    user-select: none;
+    position:relative;
+    width: 33%;
+    height: 65px;
+    outline: #454552 solid 1px;
+    border-radius: 1pt;
+    /* background-color: green; */
+    transform: scale(1);
+ 
+}
+.menuItem p{
+    position: relative;
+    margin-top: -5px;
+    font-size:small;  
+}
+.menuItem i {
+    position: relative;
+    
+}
+.insideContainer{
+
+    text-align: center;
+    width: fit-content;
+    position: relative;
+    /* background-color: orange; */
+    /* top: 15%;
+    left: 15%; */
+   top: 15%;
+    margin: auto;
+}
+
+.menuItem:hover div{
+    color: yellowgreen;
+    transform: scale(1.1);
+    transition: .3s;
+}
+.menuBarsize{
+    font-size: small;
+}
+
+.green {
+    color: yellowgreen;
+    transform: scale(1.1);
+    
 }
 
 @media screen and (min-width: 1025px) {
-    .container {
+    .containerMenubar {
         position: relative;
         background-color: #31313a;
         display: flex;
         flex-direction: column;
-   
+        
     }
     .menuItem{
         user-select: none;
         position:relative;
-        width: 70px;
-        height: 70px;
+        width: 65px;
+        height: 65px;
         outline: #454552 solid 1px;
-    
+        border-radius: 1pt;
+        /* background-color: green; */
+        transform: scale(1);
+     
     }
     .menuItem p{
         position: relative;
         margin-top: -5px;
-       
+        font-size:small;  
     }
     .menuItem i {
         position: relative;
+        
     }
     .insideContainer{
+
         text-align: center;
         width: fit-content;
+        position: relative;
         /* background-color: orange; */
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
+        /* top: 15%;
+        left: 15%; */
+       top: 15%;
+        margin: auto;
     }
-    .menuItem :hover{
+   
+    .menuItem:hover div{
         color: yellowgreen;
-        
+        transform: scale(1.1);
+        transition: .3s;
     }
     .menuBarsize{
         font-size: small;
     }
 
+    .green {
+        color: yellowgreen;
+        transform: scale(1.1);
+        
+    }
+
+  
 
 }

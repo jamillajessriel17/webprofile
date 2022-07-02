@@ -6,7 +6,9 @@ import { ProfilePanelComponent } from './components/profile-panel/profile-panel.
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutMeComponentComponent } from './components/about-me-component/about-me-component.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
-
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { ResumeComponent } from './components/resume/resume.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 @NgModule({
@@ -14,14 +16,17 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
     AppComponent,
     ProfilePanelComponent,
     AboutMeComponentComponent,
-    MenuBarComponent
+    MenuBarComponent,
+    ResumeComponent,
+    ContactComponent
    
    
 
   ],
   imports: [
     BrowserModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    PdfViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

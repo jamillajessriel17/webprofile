@@ -1,21 +1,21 @@
-<div class="container grayTextColor Poppins-light menuBarsize">
-    <div class="menuItem">
-        <div class="insideContainer">
+<div class="containerMenubar grayTextColor Poppins-light menuBarsize">
+    <div class="menuItem" (click)= "clickAbout()" >
+        <div class="insideContainer" [ngClass]="{'green':aboutSelected}">
             <i class="fas fa-user fa-2x"></i>
-           
            <p>About</p>
         </div>
     </div>
-    <div class="menuItem">
-        <div class="insideContainer">
+    <div class="menuItem" (click)= "clickResume()" >
+        <div class="insideContainer" [ngClass]="{'green':resumeSelected}">
             <i class="far fa-file fa-2x"></i>
            <p>Resume</p>
         </div>
     </div>
-    <div class="menuItem">
-        <div class="insideContainer">
-            <i class="fas fa-at fa-2x"></i>
-           <p>Contact</p>
+
+    <div class="menuItem"  (click)= "clickContact()">
+        <div class="insideContainer" [ngClass]="{'green':contactSelected}">
+                <i class="fas fa-at fa-2x"></i>
+                <p>Contact</p>
         </div>
     </div>
 </div>

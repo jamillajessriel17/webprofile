@@ -1,0 +1,19 @@
+<div class="card borderRadius borderleft" style="align-content: center;">
+    <div class="header borderBottom">
+        <h3 class="yellowgreenColor Poppins-medium">
+            <span class="fas fa-address-card iconColor letterSpacing grayColor"></span>
+                Resume
+        </h3>
+    </div>
+    <h4 class="whiteColor">Preview</h4>
+    <h4 class="whiteColor">Download</h4>
+   <div>
+    <pdf-viewer [src]="pdfSrc"
+    [render-text]="true"
+    [original-size]="false"
+    style="width: 70%; height: 500px; margin: auto"
+   >
+</pdf-viewer>
+   </div>
+</div>
+
